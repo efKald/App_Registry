@@ -1,9 +1,0 @@
-commit 17f769b00a7eaf845b3352453d78b6e42b62b428 (HEAD -> master)
-Author: Julián Rodríguez <julian_alexander@outlook.es>
-Date:   Sat May 25 15:29:34 2024 -0500
-
-    App_Registros_FrontEnd
-
-commit e5a32eba198ed95de807f9f2ef61a34a624c6fd6
-Author: Julián Rodríguez <julian_alexander@outlook.es>
-Date:   Thu May 23 17:17:12 2024 -0500
