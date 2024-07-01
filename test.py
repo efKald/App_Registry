@@ -78,19 +78,19 @@ def first_registered_user():
     time.sleep(6)
 
     field_start_hour = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[1]/input')
-    field_start_hour.send_keys('c')#7:00 a.m
+    field_start_hour.send_keys('7:00 a.m')
     time.sleep(1)
 
     field_end_hour = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[2]/input')
-    field_end_hour.send_keys('c')#8:30 a.m
+    field_end_hour.send_keys('8:30 a.m')
     time.sleep(1)
 
     field_activity = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[3]/input')
-    field_activity.send_keys('c')#Revisión de Material de Impresión
+    field_activity.send_keys('Revisión de Material de Impresión')
     time.sleep(1)
 
     field_description = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[4]/input')
-    field_description.send_keys('c')#Se revisa el inventario de todos los materiales de impresión
+    field_description.send_keys('Se revisa el inventario de todos los materiales de impresión')
     time.sleep(1)
 
     btn_add_activity = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/button')
@@ -153,19 +153,19 @@ def second_registered_user():
     time.sleep(6)
 
     field_start_hour = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[1]/input')
-    field_start_hour.send_keys('b')#1:00 p.m
+    field_start_hour.send_keys('1:00 p.m')
     time.sleep(1)
 
     field_end_hour = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[2]/input')
-    field_end_hour.send_keys('b')#3:00 p.m
+    field_end_hour.send_keys('3:00 p.m')
     time.sleep(1)
 
     field_activity = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[3]/input')
-    field_activity.send_keys('b')#Impresión de pieza: dinosaurio
+    field_activity.send_keys('Impresión de pieza: dinosaurio')
     time.sleep(1)
 
     field_description = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form[1]/table/tbody/tr[2]/td[4]/input')
-    field_description.send_keys('b')#Se imprime la pieza:dinosaurio de color verde con marrón.
+    field_description.send_keys('Se imprime la pieza:dinosaurio de color verde con marrón.')
     time.sleep(1)
 
     btn_add_activity = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/form/button')
